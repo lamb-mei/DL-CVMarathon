@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# TEST
+test.ipynb
+
+#
+libs/*
+Day*
+!homework/Day*
