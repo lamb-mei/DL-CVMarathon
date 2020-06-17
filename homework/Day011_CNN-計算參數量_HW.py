@@ -59,7 +59,8 @@ print(classifier.summary())
 classifier=Sequential()
 ##輸入為28*28*1攤平==784
 
-inputs = Input(shape=(28,28,1))
+# inputs = Input(shape=(28,28,1))  ＃矩陣錯誤的X
+inputs = Input(shape=(784,))
 
 '''輸入尺寸為28*28*1'''
 ##CNN中用了(3*3*1)*32個神經元，我們這邊也用相同神經元數量
